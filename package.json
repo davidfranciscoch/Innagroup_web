@@ -4,5 +4,7 @@
   },
   "dependencies": {
     "preline": "^2.1.0"
+  }, "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   }
 }
